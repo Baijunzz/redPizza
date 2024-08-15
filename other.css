@@ -1,0 +1,122 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: ???
+    Date: ???
+    File: other.css
+ /* */
+
+body {
+  background-image: url("parlor.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+main {
+  background-color: #f4f4f4;
+  border-left: 5px solid rgb(154, 20, 23);
+  border-right: 5px solid rgb(154, 20, 23);
+}
+
+.vertical li {
+  background: linear-gradient(to right, #b2102c, transparent);
+  border-radius: 5px;
+  margin: 10px 20px;
+  padding: 5px 5px;
+}
+
+.vertical li:first-child {
+  margin-top: 30px;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+.vertical li a {
+  color: white;
+}
+
+.horizontal {
+  align-items: center;
+}
+
+.horizontal li {
+  margin-right: 20px;
+}
+
+.horizontal li a {
+  font-size: 20px;
+}
+
+.horizontal li:first-child {
+  padding-left: 10px;
+}
+
+aside h1 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+aside li {
+  border: 3px solid rgb(154, 20, 23);
+  margin: 10px 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #c5c5c5, #d37178);
+  box-shadow: 0 0 10px rgb(31, 31, 31);
+  /*horizontal, vertical offset, blur, colour*/
+}
+
+article p {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+#deals {
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#deals div {
+  border: 4px dashed #b10e2a;
+}
+
+#deals div:nth-child(even) {
+  background-color: #e7e7e7;
+}
+
+#deals div:nth-child(odd) {
+  background-color: #fec2c6;
+}
+
+#deals div p:nth-child(2) {
+  padding: 5px 10px;
+}
+
+#deals div p:nth-child(3) {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#deals div p:nth-child(4) {
+  padding-right: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#deals div h1 {
+  padding: 5px;
+}
+
+section div {
+  padding-bottom: 10px;
+}
+
+#deals {
+  margin-top: 35px;
+}
